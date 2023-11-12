@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Rodovias</title>
+    <!-- Inclua o arquivo CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Onde o mapa será renderizado -->
+    <div id="map"></div>
+
+    <!-- Inclua a biblioteca Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Importe o script.js -->
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
+
+
+<!-- 
+sk.eyJ1IjoiYmVsbWlyb25nb2xhIiwiYSI6ImNsb3ZyamhxdDEwODYybGxsNHViZHU3NGUifQ.GB3bgH5i8j9cnLVzZIiUiQ
+
+https://youtu.be/gwYIwyIebqg
+-->
